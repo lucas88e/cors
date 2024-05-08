@@ -1,8 +1,8 @@
 const express = require("express")
 const app = express()
 const axios = require("axios")
-// const cors = require("cors")
-// app.use(cors())
+const cors = require("cors")
+app.use(cors())
 const endpoint = `https://rickandmortyapi.com/api/character/`
 
 
@@ -38,7 +38,7 @@ app.get("/characters/:names", async (req,res)=>{
 
 })
 
-app.listen(3003,()=>{
-    console.log("Este servidor se está lanzando en el http://localhost:3003")
+app.listen(3000,()=>{
+    console.log("Este servidor se está lanzando en el http://localhost:3000")
 })
 

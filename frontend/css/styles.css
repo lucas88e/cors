@@ -1,0 +1,36 @@
+h1{text-align: center;}
+
+body{
+    background-color: aquamarine;
+text-align: center;}
+
+#search{
+    border-radius: 25px;
+    height: auto;
+    width: 35vh;
+}
+#btn{
+    border-radius: 25px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    height: 25px;
+
+    width:auto;
+
+}
+#btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#section{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+  
+}
+#container{
+    flex-wrap: wrap;
+    gap:5px;
+    border: 3px solid grey
+    ;}
